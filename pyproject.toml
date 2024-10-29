@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pomofy"
+version = "0.1.0"
+description = "Aplicativo para auxiliar nos estudos"
+authors = ["João Costa"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flet = "^0.24.1"
+playsound = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
